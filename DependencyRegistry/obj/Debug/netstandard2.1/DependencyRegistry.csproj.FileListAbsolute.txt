@@ -1,0 +1,8 @@
+C:\src\dependency-registry\DependencyRegistry\bin\Debug\netstandard2.1\DependencyRegistry.deps.json
+C:\src\dependency-registry\DependencyRegistry\bin\Debug\netstandard2.1\DependencyRegistry.dll
+C:\src\dependency-registry\DependencyRegistry\bin\Debug\netstandard2.1\DependencyRegistry.pdb
+C:\src\dependency-registry\DependencyRegistry\obj\Debug\netstandard2.1\DependencyRegistry.csprojAssemblyReference.cache
+C:\src\dependency-registry\DependencyRegistry\obj\Debug\netstandard2.1\DependencyRegistry.AssemblyInfoInputs.cache
+C:\src\dependency-registry\DependencyRegistry\obj\Debug\netstandard2.1\DependencyRegistry.AssemblyInfo.cs
+C:\src\dependency-registry\DependencyRegistry\obj\Debug\netstandard2.1\DependencyRegistry.dll
+C:\src\dependency-registry\DependencyRegistry\obj\Debug\netstandard2.1\DependencyRegistry.pdb

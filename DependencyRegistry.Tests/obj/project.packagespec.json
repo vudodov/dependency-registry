@@ -1,0 +1,87 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\src\\dependency-registry\\DependencyRegistry.Tests\\DependencyRegistry.Tests.csproj",
+    "projectName": "DependencyRegistry.Tests",
+    "projectPath": "C:\\src\\dependency-registry\\DependencyRegistry.Tests\\DependencyRegistry.Tests.csproj",
+    "outputPath": "C:\\src\\dependency-registry\\DependencyRegistry.Tests\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://artifactory.pageuppeople.com/api/nuget/all": {},
+      "https://artifactory.pageuppeople.com/api/nuget/ami": {},
+      "https://artifactory.pageuppeople.com/api/nuget/deploy-deps": {},
+      "https://artifactory.pageuppeople.com/api/nuget/lts": {},
+      "https://artifactory.pageuppeople.com/api/nuget/nightly": {},
+      "https://artifactory.pageuppeople.com/api/nuget/nuget-gallery": {},
+      "https://artifactory.pageuppeople.com/api/nuget/snapshots": {},
+      "https://artifactory.pageuppeople.com/api/nuget/tools": {},
+      "https://nuget.pkg.github.com/vudodov/index.json": {},
+      "https://pageuppeople.myget.org/F/pageup-internal/auth/7e6eb39e-dfd4-4735-9817-565bb82ad032/api/v2": {},
+      "https://pageuppeople.myget.org/F/platform-dotnet/auth/7e6eb39e-dfd4-4735-9817-565bb82ad032/api/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\src\\dependency-registry\\DependencyRegistry\\DependencyRegistry.csproj": {
+            "projectPath": "C:\\src\\dependency-registry\\DependencyRegistry\\DependencyRegistry.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.10.2, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.2.0, )"
+        },
+        "coverlet.collector": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
