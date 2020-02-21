@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <PackageId>dependency-registry</PackageId>
+        <Title>The Dependency Registry</Title>
+        <Authors>Valerii Udodov &lt;vudodov@gmail.com&gt;</Authors>
+        <RepositoryUrl>https://github.com/vudodov/dependency-registry/</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+</Project>
