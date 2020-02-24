@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace DependencyRegistry
 {
-    public class Registry<TDependee> : IRegistry
+    public class Registry<TDependee> : IRegistry<TDependee>
         where TDependee : IDependee
     {
         private readonly IDictionary<string, (Type dependee, Type depender)> _mapping;
