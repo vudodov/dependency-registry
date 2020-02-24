@@ -6,7 +6,8 @@ namespace DependencyRegistry
     /// <summary>
     /// Name - dependee - dependee Handler mapping registry. One Handler per dependee is allowed.
     /// </summary>
-    public interface IRegistry : IEnumerable<(string name, Type dependee, Type depender)>
+    public interface IRegistry<TDependee> : IEnumerable<(string name, Type dependee, Type depender)>
+        where TDependee : IDependee 
     {
         /// <summary>
         /// Gets dependee and dependee handler by <param name="name" /> 
