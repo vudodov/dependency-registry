@@ -64,7 +64,8 @@ namespace DependencyRegistry
                         bool GetDependerInterfacePredicate(Type @interface) =>
                             @interface.IsGenericType
                             && @interface.GetGenericTypeDefinition().IsAssignableFrom(typeof(IDepender<>))
-                            && @interface.GetGenericArguments().Single().IsAssignableFrom(dependee);
+                            && @interface.GetGenericArguments()
+                                .Any(genericArgument => genericArgument.IsAssignableFrom(dependee));
 
                         var depender =
                             assembly.GetTypes()
